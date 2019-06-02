@@ -9,7 +9,8 @@
     "install-chromedriver": "node node_modules/chromedriver/install.js",
     "pretest_e2e": "npm run install-chromedriver",
     "test": "jest"
-  }  "author": "manoj.mondal@gmail.com",
+  },
+  "author": "manoj.mondal@gmail.com",
   "license": "MIT",
   "private": false,
   "dependencies": {
