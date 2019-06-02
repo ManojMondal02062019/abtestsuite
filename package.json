@@ -1,0 +1,21 @@
+{
+  "name": "abtestsuite",
+  "version": "1.0.0",
+  "description": "AB Project Test Suite",
+  "main": "index.js",
+  "repository": "https://github.com/ManojMondal02062019/abtestsuite.git",
+  "scripts": {
+    "preinstall-chromedriver": "npm install",
+    "install-chromedriver": "node node_modules/chromedriver/install.js",
+    "pretest_e2e": "npm run install-chromedriver",
+    "test": "jest"
+  }  "author": "manoj.mondal@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chromedriver": "^74.0.0",
+    "fs": "^0.0.1-security",
+    "jest": "^24.8.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
